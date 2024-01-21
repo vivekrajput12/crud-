@@ -5,7 +5,7 @@ const calRoute  =  require('./routes/calRoutes.js')
 app.use(bodyParser.json());
 var mysql = require('mysql')
 const cors = require('cors');
-
+//comment added here
 app.use(
     cors({
       origin: "http://localhost:5173",
