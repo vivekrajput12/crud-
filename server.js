@@ -5,7 +5,7 @@ const calRoute  =  require('./routes/calRoutes.js')
 app.use(bodyParser.json());
 var mysql = require('mysql')
 const cors = require('cors');
-
+//comii added
 app.use(
     cors({
       origin: "http://localhost:5173",
